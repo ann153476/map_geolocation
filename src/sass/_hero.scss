@@ -1,0 +1,40 @@
+.hero ul{
+    background-image: url(../img/491bb5b47386e69979447051818632e0.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover ;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 1px #0000003d;
+
+    font-weight: 900;
+    letter-spacing: 2px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.hero > div{
+    display: flex;
+@media screen and (max-width:480.5px) {
+    flex-direction: column;    
+    font-size: 20px;
+}
+@media screen and (min-width:480.5px) and (max-width:1200.5px) {
+    flex-direction: column;    
+    font-size: 30px;
+}
+@media screen and (min-width:1200.5px) {
+    flex-direction: row;
+    font-size: 40px;
+}
+}
+.hero li{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+.hero{
+    background-color: rgb(245, 241, 250);
+}
