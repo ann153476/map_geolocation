@@ -13,7 +13,7 @@ function initMap() {
 
   const locationButton = document.createElement("button");
 
-  ///////my style button//////////
+  ///////my style button////////////
     locationButton.style="font-size: 20px;color: rgb(18, 19, 83);background-color: rgb(225, 226, 255);border: none;border-radius: 4px;width: 70%;height: 35px;";
     /////////////////////////////////
 
